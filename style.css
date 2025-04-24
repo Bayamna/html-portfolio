@@ -1,0 +1,214 @@
+:root{
+    /* COLORS */
+    --primary-color: #e3ab00;
+    --primary-tint: #ffde00;
+    --primary-tint-2: #fef3cc;
+    --secondary-color: #800000;
+    --secondary-tint: #851c1c;
+    --tertiary-color: #ffffff;
+
+    /* FONTS */
+    --h1-heading-font: "Aclonica", sans-serif;
+}
+
+/* GLOBAL SETTINGS */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 10rem;
+    font-weight: 750;
+    line-height: 10rem;
+    margin-bottom: 1rem;
+    font-family: var(--h1-heading-font);
+    color: var(--secondary-color);
+    letter-spacing: -4px;
+}
+
+.heading-span{
+    color: var(--primary-color);
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+p{
+    font-size: 1.3rem;
+    margin-bottom: 4rem;
+    color: var(--secondary-color)
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+/* NAVIGATION-BAR */
+.navigation-bar{
+    margin-bottom: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6em;
+    background-color: var(--tertiary-color);
+    border-bottom: 2px solid var(--primary-color);
+    position: fixed;
+    top: 0px;
+    width: 90%;
+}
+
+.navigation-links{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.logo{
+    width: 20rem;
+}
+
+.navigation-items:hover, .navigation-items:active{
+    text-decoration: overline 2px var(--secondary-color);
+    color: var(--secondary-tint);
+}
+
+
+/* BTN-COMPONENTS */
+.btn{
+    padding: 1rem 2rem;
+    color: var(--tertiary-color);
+}
+
+.btn-register:link, .btn-register:visited{
+    background-color: var(--secondary-color);
+}
+
+.btn-register:hover, .btn-register:active{
+    background-color: var(--secondary-tint);
+    transition: .8;
+}
+
+/* HEROE SECTION */
+.heroe-section{
+    display: flex;
+    background-color: var(--tertiary-color);
+    padding: 5rem 10rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+.lady{
+    width: 35rem;
+}
+
+/* MEDIA QUERIES FOR HEROE SECTION */
+@media (max-width: 66.25rem){
+    html{
+        font-size: 53%;
+    }
+}
+
+@media (max-width: 58.875rem){
+    html{
+        font-size: 60%;
+    }
+
+    .heroe-section{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 10rem;
+    }
+
+    .navigation-links{
+        display: none;
+    }
+
+}
+
+/* FEATURES SECTION */
+.features-section{
+    background-color: var(--secondary-color);
+    padding: 5rem 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 1rem;
+    justify-content: center;
+    border-radius: 3rem;
+}
+
+.features-section-paragraph-text{
+    color: var(--tertiary-color);
+}
+
+.features-card{
+    padding: 2rem;
+    /* border: 1.8px solid var(--primary-color); */
+    border-radius: 10px;
+    align-content: center;
+}
+
+.features-card:hover{
+    background-color: var(--secondary-tint);
+}
+
+/* FOOTER SECTION */
+
+.socials{
+    background-color: var(--secondary-color);
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social-icon-size{
+    width: 3rem;
+}
+
+.copyright-text{
+    color: var(--primary-color);
+    /* margin: 0 auto; */
+}
