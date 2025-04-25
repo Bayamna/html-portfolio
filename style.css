@@ -134,114 +134,6 @@ a{
     margin-bottom: 5rem;
 }
 
-
-/* MEDIA QUERIES FOR HEROE SECTION */
-@media (max-width: 65rem){
-    html{
-        font-size: 53%;
-    }
-
-    .heroe-paragraph{
-        font-size: 1.5rem;
-    }
-
-    h1{
-        color: var(--secondary-color);
-    }
-}
-
-@media (max-width: 41rem){
-    html{
-        font-size: 53%;
-    }
-
-    .heroe-paragraph{
-        font-size: 1.5rem;
-    }
-
-    h1{
-        color: var(--secondary-color);
-    }
-
-    .heroe-section{
-        text-align: center;
-        padding: 7rem 10rem;
-    }
-}
-
-@media (max-width: 30rem){
-    html{
-        font-size: 53%;
-    }
-
-    .heroe-paragraph{
-        font-size: 1.5rem;
-    }
-
-    h1{
-        color: var(--secondary-color);
-        font-size: 7rem;
-        line-height: 6rem;
-    }
-
-    .heroe-section{
-        text-align: center;
-        padding: 7rem 1rem;
-        background-image: none;
-    }
-}
-
-@media (max-width: 29rem){
-    html{
-        font-size: 53%;
-    }
-
-    .heroe-paragraph{
-        font-size: 1.5rem;
-    }
-
-    h1{
-        color: var(--secondary-color);
-        font-size: 6rem;
-        line-height: 6rem;
-        letter-spacing: -2px;
-    }
-
-    .heroe-section{
-        text-align: center;
-        padding: 7rem 1rem;
-        background-image: none;
-    }
-}
-
-@media (max-width: 25rem){
-    html{
-        font-size: 53%;
-    }
-
-    .heroe-paragraph{
-        font-size: 1.5rem;
-    }
-
-    h1{
-        color: var(--secondary-color);
-        font-size: 7rem;
-        line-height: 6rem;
-    }
-
-    .heroe-section{
-        text-align: center;
-        padding: 7rem 1rem;
-        background-image: none;
-    }
-}
-
-
-
-
-
-
-
 /* FEATURES SECTION */
 .features-section{
     display: grid;
@@ -285,6 +177,139 @@ a{
 .feature-card-paragraph{
     color: var(--secondary-color);
 }
+
+/* MEDIA QUERIES FOR HEROE SECTION */
+@media (max-width: 65rem){
+    html{
+        font-size: 53%;
+    }
+
+    .heroe-paragraph{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        color: var(--secondary-color);
+    }
+}
+
+
+
+@media (max-width: 41rem){
+    html{
+        font-size: 53%;
+    }
+
+    .heroe-paragraph{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        color: var(--secondary-color);
+    }
+
+    .heroe-section{
+        text-align: center;
+        padding: 7rem 10rem;
+    }
+}
+
+
+
+@media (max-width: 30rem){
+    html{
+        font-size: 53%;
+    }
+
+    .heroe-paragraph{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        color: var(--secondary-color);
+        font-size: 7rem;
+        line-height: 6rem;
+    }
+
+    .heroe-section{
+        text-align: center;
+        padding: 7rem 1rem;
+        background-image: none;
+    }
+}
+
+@media (max-width: 29rem){
+    html{
+        font-size: 53%;
+    }
+
+    .heroe-paragraph{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        color: var(--secondary-color);
+        font-size: 6.5rem;
+        line-height: 6rem;
+        letter-spacing: -2px;
+    }
+
+    .heroe-section{
+        text-align: center;
+        padding: 7rem 1rem;
+        background-image: none;
+    }
+
+    .lose-weight{
+        background-image: url("images/shade-the-weight-phone.png");
+        border: 3px solid var(--primary-color);
+        text-align: center;
+    }
+
+    .glow{
+        background-image: url("images/glow-phone.png");
+        border: 3px solid var(--primary-color);
+        text-align: center;
+    }
+
+    .feature-card-heading{
+        font-size: 4rem;
+    }
+
+    .feature-card-paragraph{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 25rem){
+    html{
+        font-size: 53%;
+    }
+
+    .heroe-paragraph{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        color: var(--secondary-color);
+        font-size: 7rem;
+        line-height: 6rem;
+    }
+
+    .heroe-section{
+        text-align: center;
+        padding: 7rem 1rem;
+        background-image: none;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
