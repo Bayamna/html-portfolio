@@ -8,7 +8,8 @@
     --tertiary-color: #ffffff;
 
     /* FONTS */
-    --h1-heading-font: "Aclonica", sans-serif;
+    --font-family: "Poppins", sans-serif;
+
 }
 
 /* GLOBAL SETTINGS */
@@ -40,13 +41,9 @@ h1{
     font-weight: 750;
     line-height: 9rem;
     margin-bottom: 1rem;
-    font-family: var(--h1-heading-font);
-    color: var(--tertiary-color);
-    letter-spacing: -4px;
-}
-
-.heading-span{
+    font-family: var(--font-family);
     color: var(--secondary-color);
+    letter-spacing: -4px;
 }
 
 h2{
@@ -135,39 +132,70 @@ a{
     padding: 10rem 20rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    border-radius: 2.5rem;
 }
 
-.lady{
-    width: 40rem;
-}
 
 /* MEDIA QUERIES FOR HEROE SECTION */
-@media (max-width: 66.25rem){
+@media (max-width: 65rem){
     html{
         font-size: 53%;
     }
-}
 
-@media (max-width: 58.875rem){
-    html{
-        font-size: 60%;
-    }
-
-    .heroe-section{
-        flex-direction: column;
-        text-align: center;
+    .heroe-paragraph{
+        font-size: 1.5rem;
     }
 
     h1{
-        font-size: 10rem;
+        color: var(--secondary-color);
     }
-
-    .navigation-links{
-        display: none;
-    }
-
 }
+
+@media (max-width: 41rem){
+    html{
+        font-size: 53%;
+    }
+
+    .heroe-paragraph{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        color: var(--secondary-color);
+    }
+
+    .heroe-section{
+        text-align: center;
+        padding: 7rem 10rem;
+    }
+}
+
+@media (max-width: 25rem){
+    html{
+        font-size: 53%;
+    }
+
+    .heroe-paragraph{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        color: var(--secondary-color);
+        font-size: 7rem;
+        line-height: 6rem;
+    }
+
+    .heroe-section{
+        text-align: center;
+        padding: 7rem 1rem;
+        background-image: none;
+    }
+}
+
+
+
+
+
+
 
 /* FEATURES SECTION */
 .features-section{
