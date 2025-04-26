@@ -46,6 +46,10 @@ h1{
     letter-spacing: -4px;
 }
 
+.heading-span{
+    color: var(--tertiary-color);
+}
+
 h2{
     font-size: 4rem;
     font-weight: 500;
@@ -171,7 +175,7 @@ a{
 .feature-card-heading{
     color: var(--secondary-color);
     font-weight: 700;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .feature-card-paragraph{
