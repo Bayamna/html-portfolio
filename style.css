@@ -283,6 +283,21 @@ a{
         background-size: contain;
         background-position: center;
     }
+
+    .lose-weight{
+        background-image: none;
+        background-color: var(--primary-color);
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .glow{
+        background-image: none;
+        background-color: var(--primary-color);
+        border-radius: 5px;
+        text-align: center;
+
+    }
 }
 /* 
 @media (max-width: 25rem){
