@@ -244,14 +244,14 @@ a{
 
     .lose-weight{
         background-image: none;
-        background-color: var(--primary-color);
+        background-color: var(--tertiary-color);
         border-radius: 5px;
         text-align: center;
     }
 
     .glow{
         background-image: none;
-        background-color: var(--primary-color);
+        background-color: var(--tertiary-color);
         border-radius: 5px;
         text-align: center;
 
@@ -286,14 +286,14 @@ a{
 
     .lose-weight{
         background-image: none;
-        background-color: var(--primary-color);
+        background-color: var(--tertiary-color);
         border-radius: 5px;
         text-align: center;
     }
 
     .glow{
         background-image: none;
-        background-color: var(--primary-color);
+        background-color: var(--tertiary-color);
         border-radius: 5px;
         text-align: center;
 
