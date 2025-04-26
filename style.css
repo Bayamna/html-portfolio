@@ -274,7 +274,6 @@ a{
 
     }
 
-    
     .features-section-two{
         grid-template-columns: 1fr;
     }
@@ -319,6 +318,10 @@ a{
         border-radius: 5px;
         text-align: center;
 
+    }
+
+    .features-section-two{
+        grid-template-columns: 1fr;
     }
 }
 /* 
