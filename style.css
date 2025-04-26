@@ -178,7 +178,24 @@ a{
     color: var(--secondary-color);
 }
 
-/* MEDIA QUERIES FOR HEROE SECTION */
+.icons{
+    width: 5rem;
+}
+
+.features-section-two-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.features-section-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* MEDIA QUERIES FOR HEROE AND FEATURE SECTION */
 @media (max-width: 65rem){
     html{
         font-size: 53%;
@@ -256,6 +273,11 @@ a{
         text-align: center;
 
     }
+
+    
+    .features-section-two{
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 26rem){
@@ -263,7 +285,7 @@ a{
         font-size: 53%;
     }
 
-    .heroe-paragraph{
+    .paragraph{
         font-size: 1.5rem;
     }
 
