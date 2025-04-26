@@ -229,12 +229,32 @@ a{
         color: var(--secondary-color);
         font-size: 7rem;
         line-height: 6rem;
+        letter-spacing: -.2rem;
     }
 
     .heroe-section{
         text-align: center;
-        padding: 7rem 1rem;
+        padding: 15rem 1rem;
+        padding-bottom: 20rem;
+        background-image: url("images/bk.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .lose-weight{
         background-image: none;
+        background-color: var(--primary-color);
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .glow{
+        background-image: none;
+        background-color: var(--primary-color);
+        border-radius: 5px;
+        text-align: center;
+
     }
 }
 
@@ -249,35 +269,19 @@ a{
 
     h1{
         color: var(--secondary-color);
-        font-size: 6.5rem;
+        font-size: 7rem;
         line-height: 6rem;
-        letter-spacing: -2px;
+        letter-spacing: -.2rem;
     }
 
     .heroe-section{
         text-align: center;
-        padding: 7rem 1rem;
-        background-image: none;
-    }
-
-    .lose-weight{
-        background-image: url("images/shade-the-weight-phone.png");
-        border: 3px solid var(--primary-color);
-        text-align: center;
-    }
-
-    .glow{
-        background-image: url("images/glow-phone.png");
-        border: 3px solid var(--primary-color);
-        text-align: center;
-    }
-
-    .feature-card-heading{
-        font-size: 3.5rem;
-    }
-
-    .feature-card-paragraph{
-        font-size: 1.1rem;
+        padding: 15rem 1rem;
+        padding-bottom: 20rem;
+        background-image: url("images/bk.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
     }
 }
 /* 
