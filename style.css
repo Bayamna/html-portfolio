@@ -94,14 +94,13 @@ a{
 }
 
 .logo{
-    width: 20rem;
+    width: 25rem;
 }
 
 .navigation-items:hover, .navigation-items:active{
     text-decoration: overline 2px var(--tertiary-color);
     color: var(--tertiary-color);
 }
-
 
 /* BTN-COMPONENTS */
 .btn{
@@ -132,7 +131,7 @@ a{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding: 13rem 20rem;
+    padding: 15rem 20rem;
     margin-top: 5rem;
     margin-bottom: 13rem;
 }
@@ -196,6 +195,55 @@ a{
 .features-section-two{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem;
+}
+
+/* FOOTER SECTION */
+footer{
+    background-color: var(--secondary-color);
+    padding: 10rem;
+}
+.social-media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.footer-icons{
+    width: 3rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+
+.contact-details{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+
+.footer-navigation-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    gap: 1.5rem;
+}
+
+.footer-navigation-items{
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
+
+.footer-navigation-items:hover{
+    text-decoration: underline var(--primary-color);
 }
 
 /* MEDIA QUERIES FOR HEROE AND FEATURE SECTION */
@@ -281,6 +329,10 @@ a{
     .features-section-two{
         grid-template-columns: 1fr;
     }
+
+    .navigation-links{
+        display: none
+    }
 }
 
 @media (max-width: 26rem){
@@ -327,6 +379,10 @@ a{
 
     .features-section-two{
         grid-template-columns: 1fr;
+    }
+
+    .navigation-links{
+        display: none
     }
 }
 /* 
