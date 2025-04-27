@@ -195,13 +195,16 @@ a{
 .features-section-two{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 1rem;
+    margin-bottom: 13rem;
 }
 
 /* FOOTER SECTION */
 footer{
     background-color: var(--secondary-color);
     padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .social-media-links{
     display: flex;
@@ -219,7 +222,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 
 }
 
@@ -235,6 +238,7 @@ footer{
     align-items: center;
     color: var(--primary-color);
     gap: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .footer-navigation-items{
@@ -244,6 +248,13 @@ footer{
 
 .footer-navigation-items:hover{
     text-decoration: underline var(--primary-color);
+}
+
+.footer-booking-link{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem 2rem;
+    font-weight: 70rem;
 }
 
 /* MEDIA QUERIES FOR HEROE AND FEATURE SECTION */
