@@ -293,8 +293,6 @@ footer{
     }
 }
 
-
-
 @media (max-width: 30rem){
     html{
         font-size: 53%;
@@ -385,7 +383,6 @@ footer{
         background-color: var(--tertiary-color);
         border-radius: 5px;
         text-align: center;
-
     }
 
     .features-section-two{
@@ -394,6 +391,24 @@ footer{
 
     .navigation-links{
         display: none
+    }
+}
+
+@media (max-width: 23rem ){
+    .feature-card-paragraph{
+        font-size: 1.1rem;
+    }
+
+    footer{
+        padding: 10rem 5rem;
+    }
+
+    .footer-navigation-links{
+        gap: .7rem
+    }
+
+    .paragraph{
+        font-size: 1.2rem;
     }
 }
 /* 
