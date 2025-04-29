@@ -406,7 +406,7 @@ footer{
     }
 }
 
-@media (max-width: 23.5rem ){
+@media (max-width: 24rem ){
     .feature-card-paragraph{
         font-size: 1.1rem;
     }
