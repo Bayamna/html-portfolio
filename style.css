@@ -400,9 +400,13 @@ footer{
     .navigation-links{
         display: none
     }
+
+    .feature-card-paragraph{
+        font-size: 1.4rem;
+    }
 }
 
-@media (max-width: 23rem ){
+@media (max-width: 23.5rem ){
     .feature-card-paragraph{
         font-size: 1.1rem;
     }
