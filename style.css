@@ -61,9 +61,11 @@ h3{
 }
 
 p{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     margin-bottom: 4rem;
-    color: var(--tertiary-color)
+    color: var(--secondary-color);
+    font-weight: 700;
+    
 }
 
 ul{
@@ -146,38 +148,52 @@ a{
 
 .lose-weight{
     background-image: url("images/shade-the-weight1.png");
-    background-size: 105rem;
     background-size: cover;
     background-position: right;
     padding: 5rem;
     border-radius: 2rem;
     color: var(--tertiary-color);
     background-repeat: no-repeat;
-    border: 2px solid var(--primary-color);
+    box-shadow: 0px 1px 10px lightgray;
     background-color: var(--tertiary-color);
 }
 
 .glow{
     background-image: url("images/glow1.png");
-    background-size: 105rem;
     background-size: cover;
     background-position: right;
     padding: 5rem;
     border-radius: 2rem;
     color: var(--tertiary-color);
     background-repeat: no-repeat;
-    border: 2px solid var(--primary-color);
+    box-shadow: 0px 1px 10px lightgray;
+    background-color: var(--tertiary-color);
+}
+
+.skin-tags{
+    background-image: url("images/glow1.png");
+    background-size: cover;
+    background-position: right;
+    padding: 5rem;
+    border-radius: 2rem;
+    color: var(--tertiary-color);
+    background-repeat: no-repeat;
+    box-shadow: 0px 1px 10px lightgray;
     background-color: var(--tertiary-color);
 }
 
 .feature-card-heading{
     color: var(--secondary-color);
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    line-height: 3.2rem;
+    margin-bottom: 1rem;
 }
 
 .feature-card-paragraph{
     color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 1.5rem;
 }
 
 .icons{
@@ -320,19 +336,11 @@ footer{
         margin-bottom: 7rem;
     }
 
-    .lose-weight{
+    .phone-feature-section{
         background-image: none;
         background-color: var(--tertiary-color);
         border-radius: 5px;
         text-align: center;
-    }
-
-    .glow{
-        background-image: none;
-        background-color: var(--tertiary-color);
-        border-radius: 5px;
-        text-align: center;
-
     }
 
     .features-section-two{
@@ -408,7 +416,7 @@ footer{
     }
 
     .paragraph{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 }
 /* 
