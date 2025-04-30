@@ -1,0 +1,123 @@
+:root{
+    /* COLORS */
+    --primary-color: #e3ab00;
+    --primary-tint: #ffde00;
+    --primary-tint-2: #fcf9f0;
+    --secondary-color: #800000;
+    --secondary-tint: #851c1c;
+    --tertiary-color: #ffffff;
+
+    /* FONTS */
+    --font-family: "Poppins", sans-serif;
+
+}
+
+/* GLOBAL SETTINGS */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    background-color: var(--tertiary-color);
+    color: var(--tertiary-color);
+}
+
+.container{
+    width: 93%;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+p{
+    font-size: 1.6rem;
+    margin-bottom: 4rem;
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+/* NAVIGATION-BAR */
+.navigation-bar{
+    margin-bottom: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6em;
+    background-color: var(--secondary-color);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.navigation-links{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.logo{
+    width: 25rem;
+}
+
+.navigation-items:hover, .navigation-items:active{
+    text-decoration: overline 2px var(--tertiary-color);
+    color: var(--tertiary-color);
+}
+
+/* BTN-COMPONENTS */
+.btn{
+    padding: 1rem 2rem;
+    color: var(--tertiary-color);
+}
+
+.btn-register:link, .btn-register:visited{
+    background-color: var(--secondary-color);
+}
+
+.btn-register:hover, .btn-register:active{
+    background-color: var(--primary-color);
+    border: 2px solid var(--secondary-color);
+}
+
+.btn-secondary:link, .btn-secondary:visited{
+    background-color: var(--tertiary-color);
+    border: solid 2px var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+/* SERVICES SECTION */
+.all-services-container{
+    margin-top: 10rem;
+}
+
+.services-heading{
+    color: var(--secondary-color);
+}
+
+.services-paragraph{
+    font-weight: 400;
+}
