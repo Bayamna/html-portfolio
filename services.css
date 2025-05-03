@@ -61,7 +61,7 @@ a{
     color: var(--tertiary-color);
 }
 
-/* NAVIGATION-BAR */
+/* TOP-NAVIGATION-BAR */
 .navigation-bar{
     margin-bottom: 30rem;
     display: flex;
@@ -86,6 +86,20 @@ a{
 .navigation-items:hover, .navigation-items:active{
     text-decoration: overline 2px var(--tertiary-color);
     color: var(--tertiary-color);
+}
+
+/* BUTTOM-NAVIGATION-BAR */
+.bottom-vavigation-bar{
+    display: none;
+}
+
+.nav-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 0px;
+   
 }
 
 /* BTN-COMPONENTS */
@@ -321,6 +335,31 @@ footer{
 
     .footer-navigation-links{
         gap: .7rem
+    }
+
+    .bottom-vavigation-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        background-color: var(--secondary-color);
+        padding: .5rem;
+        padding-top: 1rem;
+        gap: 2rem;
+        border-top: 2px solid var(--primary-color);
+    }
+
+    .navigation-icons{
+        width: 3rem;
+    }
+
+    .navigation-text{
+        font-size: 1.1rem;
+        color: var(--primary-color);
+        font-weight: 400;
+        margin-bottom: 0px;
     }
 
 }
