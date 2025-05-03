@@ -232,6 +232,30 @@ a{
     }
 }
 
+@media(max-width: 26rem){
+    .image{
+        width: 30rem;
+    }
+
+    .our-services{
+        font-size: 3rem;
+    }
+
+    
+    .services-paragraph{
+        font-size: 1.5rem;
+    }
+
+    .service{
+        margin-top: 5rem;
+    }
+
+    .all-services-container{
+        justify-items: center;
+        padding: 4rem;
+    }
+}
+
 @media(max-width: 24rem){
     .our-services{
         font-size: 3rem;
