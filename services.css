@@ -116,7 +116,7 @@ a{
 .service{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     /* align-items: center; */
     margin-top: 10rem;
 }
@@ -165,6 +165,12 @@ a{
     }
 }
 
+@media(max-width: 77rem){
+    .image{
+        width: 45rem;
+    }
+}
+
 @media(max-width: 64rem){
     .container{
         width: 90%;
@@ -195,7 +201,7 @@ a{
     .navigation-links{
         display: none;
     }
-    
+
     .container{
         width: 90%;
     }
@@ -224,6 +230,28 @@ a{
     .services-paragraph{
         font-size: 1.8rem;
     }
+}
 
+@media(max-width: 24rem){
+    .our-services{
+        font-size: 3rem;
+    }
+    .image{
+        width: 27rem;
+        border: 5px solid var(--tertiary-color);
+    }
+
+    .services-paragraph{
+        font-size: 1.5rem;
+    }
+
+    .service{
+        margin-top: 5rem;
+    }
+
+    .all-services-container{
+        justify-items: center;
+        padding: 4rem;
+    }
 
 }
