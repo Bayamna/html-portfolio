@@ -213,7 +213,7 @@ a{
 .features-section-two{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 13rem;
+    margin-bottom: 1rem;
 }
 
 /* FOOTER SECTION */
