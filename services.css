@@ -314,6 +314,10 @@ footer{
         font-size: 55%;
     }
 
+    .container{
+        width: 95%;
+    }
+
     .image{
         width: 100%;
     }
