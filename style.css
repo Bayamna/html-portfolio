@@ -295,7 +295,7 @@ footer{
 
 @media (max-width: 41rem){
     html{
-        font-size: 53%;
+        font-size: 55%;
     }
 
     .heroe-paragraph{
@@ -357,7 +357,7 @@ footer{
 
 @media (max-width: 26rem){
     html{
-        font-size: 53%;
+        font-size: 55%;
     }
 
     .paragraph{
@@ -416,8 +416,7 @@ footer{
         bottom: 0px;
         width: 100%;
         background-color: var(--secondary-color);
-        padding: .5rem;
-        padding-top: 1rem;
+        padding: 1.5rem 0px;
         gap: 3.5rem;
         border-top: 2px solid var(--primary-color);
     }

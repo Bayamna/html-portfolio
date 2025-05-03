@@ -191,13 +191,6 @@ footer{
     width: 3rem;
 }
 
-.contact-details{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-}
-
 .contact{
     display: flex;
     flex-direction: column;
@@ -207,7 +200,7 @@ footer{
 
 }
 
-.follow-us{
+.contact-details{
     color: var(--primary-color);
     font-size: 1.5rem;
     margin-bottom: 0px;
@@ -317,6 +310,10 @@ footer{
 }
 
 @media(max-width: 26rem){
+    html{
+        font-size: 55%;
+    }
+
     .image{
         width: 100%;
     }
@@ -355,8 +352,7 @@ footer{
         bottom: 0px;
         width: 100%;
         background-color: var(--secondary-color);
-        padding: .5rem;
-        padding-top: 1rem;
+        padding: 1.5rem 0px;
         gap: 3.5rem;
         border-top: 2px solid var(--primary-color);
     }
