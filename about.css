@@ -102,6 +102,10 @@ a{
    
 }
 
+.nav-item:hover .nav-item:active{
+    text-decoration: none;
+}
+
 .about{
     margin-top: 15rem;
     display: flex;
@@ -136,6 +140,8 @@ a{
 
 .about-paragraph{
     font-weight: 400;
+    margin-bottom: 0px;
+    font-size: 1.3rem;
 }
 
 .founder{
@@ -145,6 +151,7 @@ a{
     background-color: var(--secondary-color);
     padding: 3rem;
     border-radius: 2rem;
+    margin-top: 2.5rem;
 }
 
 .founder-info{
