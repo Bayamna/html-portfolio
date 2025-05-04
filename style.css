@@ -147,7 +147,7 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     padding: 15rem 20rem;
     margin-top: 5rem;
     margin-bottom: 13rem;
@@ -220,7 +220,8 @@ a{
 /* FOOTER SECTION */
 footer{
     background-color: var(--tertiary-color);
-    padding: 10rem;
+    padding: 5rem;
+    padding-bottom: 17rem;
     display: flex;
     flex-direction: column;
     align-items: center;
