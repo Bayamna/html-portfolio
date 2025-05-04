@@ -158,7 +158,7 @@ a{
     display: grid;
     grid-template-columns: 1fr;
     margin-bottom: 15rem;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 .heroe-section-card{
@@ -214,6 +214,7 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 1rem;
+    column-gap: 10rem;
 }
 
 /* FOOTER SECTION */
@@ -366,18 +367,17 @@ footer{
 
     h1{
         color: var(--secondary-color);
-        font-size: 7rem;
+        font-size: 5.5rem;
         line-height: 6rem;
         letter-spacing: -.2rem;
     }
 
     .heroe-section{
         text-align: center;
-        padding: 12rem 1rem;
-        padding-bottom: 18rem;
-        background-image: url("images/bk.png");
+        padding-bottom: 32rem;
+        background-image: url("images/bk1.png");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         margin-bottom: 7rem;
     }
