@@ -398,6 +398,8 @@ footer{
 
     .features-section-two{
         grid-template-columns: 1fr;
+        padding: 2rem;
+        margin-bottom: 5rem;
     }
 
     .navigation-links{
