@@ -418,7 +418,6 @@ footer{
         background-color: var(--secondary-color);
         padding: 1.5rem 0px;
         gap: 3.5rem;
-        border-top: 2px solid var(--primary-color);
     }
 
     .navigation-icons{
