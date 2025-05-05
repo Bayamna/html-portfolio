@@ -493,7 +493,7 @@ footer{
         padding: 2rem 2rem;
         margin: 250px 1rem;
         margin-left: 1rem;
-        border: 2rem solid var(--primary-color);
+        border: .5rem solid var(--primary-color);
     }
 
 }

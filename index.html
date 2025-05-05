@@ -27,6 +27,25 @@
         </nav>
     </header>
 
+    <div class="form-container">
+        <form class="booking-form" action="">
+            <div class="booking-form-heading">
+                <img class="back-icon" src="images/back.png" alt="back-arrow-icon">
+                <h3 class="booking">Booking</h3>
+            </div>
+            <input class="booking-details" type="text" name="firstname" placeholder="First Name">
+            <input class="booking-details" type="text" name="lastname" placeholder="Last Name">
+            <select class="booking-details" name="gender" id="gender" placeholder="Date of birth">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <input class="booking-details" type="date" name="date-of-birth" placeholder="Date of birth">
+            <input class="booking-details" type="text" name="contact" placeholder="Contact">
+            <input class="booking-details" type="text" name="location" placeholder="Location">
+            <button class="submit-btn" type="submit">Submit</button>
+         </form>
+    </div>
+
     <!-- Heroe section -->
     <section class="heroe-section">
         <h1>Be Your<span class="heading-span"> Best!</span></h1>
@@ -35,10 +54,9 @@
             DPN's, Keloid, Dark spots Scars or Stretch marks?
         </p>
         <ul>
-            <li> <a href="#" class="btn btn-register">Book us today!</a></li>
+            <li> <a href="#" class="btn booking-form-btn btn-register">Book us today!</a></li>
         </ul>
-       
-</section>
+    </section>
    
     <div class="container">
         <main>
@@ -135,23 +153,6 @@
                     </p>
                 </div>
              </section>
-
-             <form class="booking-form" action="">
-                <div>
-                    <img src="images/back.png" alt="back-arrow-icon">
-                    <h3>Booking</h3>
-                </div>
-                <input class="booking-details" type="text" name="firstname" placeholder="First Name">
-                <input class="booking-details" type="text" name="lastname" placeholder="Last Name">
-                <select class="booking-details" name="gender" id="gender" placeholder="Date of birth">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                </select>
-                <input class="booking-details" type="date" name="date-of-birth" placeholder="Date of birth">
-                <input class="booking-details" type="text" name="contact" placeholder="Contact">
-                <input class="booking-details" type="text" name="location" placeholder="Location">
-
-             </form>
         </main>
     </div>
 
@@ -201,5 +202,6 @@
             </a>
         </nav>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
