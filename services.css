@@ -112,11 +112,11 @@ a{
     background-color: var(--secondary-color);
 }
 
-.btn-secondary:link, .btn-secondary:visited{
+/* .btn-secondary:link, .btn-secondary:visited{
     background-color: var(--tertiary-color);
     border: solid 2px var(--secondary-color);
     color: var(--secondary-color);
-}
+} */
 
 /* SERVICES SECTION */
 .our-services{

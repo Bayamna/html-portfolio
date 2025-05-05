@@ -44,6 +44,7 @@ h1{
     font-family: var(--font-family);
     color: var(--secondary-color);
     letter-spacing: -4px;
+    z-index: 0;
 }
 
 .heading-span{
@@ -137,7 +138,7 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 18rem 20rem;
+    padding: 19rem 20rem;
     margin-top: 7rem;
     margin-bottom: 13rem;
 }
@@ -204,6 +205,65 @@ a{
     grid-template-columns: 1fr 1fr;
     margin-bottom: 1rem;
     column-gap: 10rem;
+}
+
+/* BOOKING FORM */
+
+.booking-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 5rem;
+    /* border: 3px solid var(--primary-color); */
+    width: 40%;
+    margin-left: 5rem 40rem;
+    border-radius: 2rem;
+    background-color: var(--tertiary-color);
+    position: absolute;
+    display: none;
+    /* z-index: 10; */
+  
+}
+
+
+.booking-form-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25rem;
+    margin-bottom: 2rem;
+    
+}
+
+.booking{
+    color: var(--secondary-color);
+}
+
+.back-icon{
+    width: 4rem;
+}
+
+.booking-details{
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 40rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 1rem;
+}
+
+.booking-details:focus{
+    border: 2.5px solid var(--secondary-color);
+}
+
+.submit-btn{
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    padding: 1rem 2rem;
+    border: none;
+    width: 12rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
 }
 
 /* FOOTER SECTION */
@@ -426,6 +486,14 @@ footer{
         color: var(--primary-color);
         font-weight: 400;
         margin-bottom: 0px;
+    }
+
+    .booking-form{
+        width: 95%;
+        padding: 2rem 2rem;
+        margin: 250px 1rem;
+        margin-left: 1rem;
+        border: 2rem solid var(--primary-color);
     }
 
 }
