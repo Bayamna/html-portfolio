@@ -224,14 +224,21 @@ a{
     align-items: center;
     padding: 2rem 5rem;
     width: 40%;
-    top: 15%;
-    left: 30%;
     border-radius: 2rem;
     background-color: var(--tertiary-color);
     position: fixed;
-    display: none;
-    z-index: 10;
+    top: 200px;
+    left: 400px;
+    visibility: hidden;
+    opacity: 0;
   
+}
+
+.form-visible{
+    top: 100px;
+    visibility: visible;
+    transition: 1s;
+    opacity: 5;
 }
 
 
@@ -499,12 +506,19 @@ footer{
     }
 
     .booking-form{
-        width: 95%;
+        width: 400px;
         padding: 2rem 2rem;
         border: .5rem solid var(--primary-color);
-        top: 42%;
-        left: 3%;
+        top: 200px;
+        left: 8px;
         z-index: 999;
+    }
+
+    .form-visible{
+        top: 130px;
+        visibility: visible;
+        transition: 1s;
+        opacity: 5;
     }
 
 }
