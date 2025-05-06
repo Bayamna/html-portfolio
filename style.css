@@ -389,7 +389,8 @@ footer{
 
     .heroe-section{
         text-align: center;
-        padding: 12rem 1rem;
+        padding: 10rem 1rem;
+        padding-top: 17rem;
         padding-bottom: 18rem;
         background-image: url("images/bk1.png");
         background-repeat: no-repeat;
@@ -397,7 +398,7 @@ footer{
         background-position: center;
         margin-bottom: 7rem;
         padding-bottom: 32rem;
-        border-radius: 2rem;
+        /* border-radius: 2rem; */
         margin-top: 2rem;
     }
 
@@ -442,8 +443,8 @@ footer{
         background-position: center;
         margin-bottom: 7rem;
         margin-top: 2rem;
-        border-radius: 2rem;
-        height: 80vh 100vw;
+        /* border-radius: 2rem; */
+        height: 90vh;
     }
 
     .lose-weight{
@@ -500,10 +501,8 @@ footer{
     .booking-form{
         width: 95%;
         padding: 2rem 2rem;
-        /* margin: 250px 1rem;
-        margin-left: 1rem; */
-        border: 1rem solid var(--primary-color);
-        top: 50%;
+        border: .5rem solid var(--primary-color);
+        top: 42%;
         left: 3%;
         z-index: 999;
     }
