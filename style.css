@@ -148,6 +148,7 @@ a{
     padding: 19rem 20rem;
     margin-top: 7rem;
     margin-bottom: 13rem;
+    height: 100vh;
 }
 
 /* FEATURES SECTION */
@@ -442,6 +443,7 @@ footer{
         margin-bottom: 7rem;
         margin-top: 2rem;
         border-radius: 2rem;
+        height: 80vh 100vw;
     }
 
     .lose-weight{
