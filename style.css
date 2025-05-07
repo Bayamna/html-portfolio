@@ -158,7 +158,7 @@ a{
     gap: 5rem;
 }
 
-.heroe-section-card{
+.feature-section-card{
     background-size: cover;
     background-position: right;
     padding: 5rem;
@@ -237,7 +237,7 @@ a{
 .form-visible{
     top: 18px;
     visibility: visible;
-    transition: 1s;
+    transition: .5s;
     opacity: 5;
 }
 
@@ -351,89 +351,7 @@ footer{
 }
 
 /* MEDIA QUERIES FOR HEROE AND FEATURE SECTION */
-@media (max-width: 65rem){
-    html{
-        font-size: 53%;
-    }
-
-    .heroe-paragraph{
-        font-size: 1.5rem;
-    }
-
-    h1{
-        color: var(--secondary-color);
-    }
-}
-
-
-
-@media (max-width: 41rem){
-    html{
-        font-size: 55%;
-    }
-
-    .heroe-paragraph{
-        font-size: 1.5rem;
-    }
-
-    h1{
-        color: var(--secondary-color);
-    }
-
-    .heroe-section{
-        text-align: center;
-        padding: 7rem 10rem;
-    }
-}
-
-@media (max-width: 30rem){
-    html{
-        font-size: 55%;
-    }
-
-    .heroe-paragraph{
-        font-size: 1.5rem;
-    }
-
-    h1{
-        color: var(--secondary-color);
-        font-size: 5.5rem;
-        line-height: 6rem;
-        letter-spacing: -.2rem;
-    }
-
-    .heroe-section{
-        text-align: center;
-        padding: 10rem 1rem;
-        padding-top: 17rem;
-        padding-bottom: 18rem;
-        background-image: url("images/bk1.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        margin-bottom: 7rem;
-        padding-bottom: 32rem;
-        /* border-radius: 2rem; */
-        margin-top: 2rem;
-    }
-
-    .phone-feature-section{
-        background-image: none;
-        background-color: var(--tertiary-color);
-        border-radius: 5px;
-        text-align: center;
-    }
-
-    .features-section-two{
-        grid-template-columns: 1fr;
-    }
-
-    .navigation-links{
-        display: none
-    }
-}
-
-@media (max-width: 26rem){
+@media (min-width: 375px){
     html{
         font-size: 55%;
     }
@@ -442,16 +360,10 @@ footer{
         font-size: 1.5rem;
     }
 
-    h1{
-        color: var(--secondary-color);
-        font-size: 5.5rem;
-        line-height: 6rem;
-        letter-spacing: -.2rem;
-    }
-
     .heroe-section{
         text-align: center;
-        padding-bottom: 32rem;
+        padding: 45rem 5rem;
+        padding-top: 20rem;
         background-image: url("images/bk1.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -462,20 +374,12 @@ footer{
         /* height: 90vh; */
     }
 
-    .lose-weight{
+    .phone-feature-section{
         background-image: none;
         background-color: var(--tertiary-color);
         border-radius: 5px;
         text-align: center;
     }
-
-    .glow{
-        background-image: none;
-        background-color: var(--tertiary-color);
-        border-radius: 5px;
-        text-align: center;
-    }
-
     .features-section-two{
         grid-template-columns: 1fr;
         padding: 2rem;
@@ -499,7 +403,7 @@ footer{
         width: 100%;
         background-color: var(--secondary-color);
         padding: 1.5rem 0px;
-        gap: 3.5rem;
+        gap: 5rem;
     }
 
     .navigation-icons{
@@ -525,62 +429,26 @@ footer{
     .form-visible{
         top: 180px;
         visibility: visible;
-        transition: 1s;
+        transition: .5s;
         opacity: 5;
     }
 
 }
 
-@media (max-width: 24rem ){
-    .feature-card-paragraph{
-        font-size: 1.1rem;
+@media (max-width: 440px){
+    .bottom-navigation-bar{
+        gap: 3.5rem;
     }
+}
 
-    footer{
-        padding: 10rem 5rem;
-    }
-
-    .footer-navigation-links{
-        gap: .7rem
+@media (max-width: 375px){
+    h1{
+        font-size: 9rem;
     }
 
     .paragraph{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }
-/* 
-@media (max-width: 25rem){
-    html{
-        font-size: 53%;
-    }
 
-    .heroe-paragraph{
-        font-size: 1.5rem;
-    }
-
-    h1{
-        color: var(--secondary-color);
-        font-size: 7rem;
-        line-height: 6rem;
-    }
-
-    .heroe-section{
-        text-align: center;
-        padding: 7rem 1rem;
-        background-image: none;
-    }
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-/* FOOTER SECTION */
 
