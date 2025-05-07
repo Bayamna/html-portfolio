@@ -148,7 +148,6 @@ a{
     padding: 19rem 20rem;
     margin-top: 7rem;
     margin-bottom: 13rem;
-    height: 100vh;
 }
 
 /* FEATURES SECTION */
@@ -221,9 +220,10 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 2rem 5rem;
     width: 40%;
+    border: .5rem solid var(--primary-color);
     border-radius: 2rem;
     background-color: var(--tertiary-color);
     position: fixed;
@@ -235,7 +235,7 @@ a{
 }
 
 .form-visible{
-    top: 100px;
+    top: 18px;
     visibility: visible;
     transition: 1s;
     opacity: 5;
@@ -247,28 +247,36 @@ a{
     justify-content: center;
     align-items: center;
     gap: 25rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     
 }
 
 .booking{
     color: var(--secondary-color);
+  
 }
 
 .back-icon{
     width: 4rem;
 }
 
-.booking-details{
-    padding: 1rem;
-    margin-bottom: 2rem;
-    width: 40rem;
-    border: 2px solid var(--primary-color);
-    border-radius: 1rem;
+.booking-instruction{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
 }
 
-.booking-details:focus{
-    border: 2.5px solid var(--secondary-color);
+.input-label{
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+}
+
+.booking-details{
+    padding: 1rem;
+    margin-bottom: 1.3rem;
+    width: 40rem;
+    border: 1.5px solid var(--secondary-color);
+    border-radius: .5rem;
 }
 
 .submit-btn{
@@ -278,7 +286,7 @@ a{
     border: none;
     width: 12rem;
     font-size: 1.5rem;
-    border-radius: 2rem;
+    border-radius: .5rem;
 }
 
 /* FOOTER SECTION */
@@ -450,8 +458,8 @@ footer{
         background-position: center;
         margin-bottom: 7rem;
         margin-top: 2rem;
-        /* border-radius: 2rem; */
-        height: 90vh;
+        border-radius: 2rem;
+        /* height: 90vh; */
     }
 
     .lose-weight{
@@ -509,13 +517,13 @@ footer{
         width: 400px;
         padding: 2rem 2rem;
         border: .5rem solid var(--primary-color);
-        top: 200px;
+        top: 400px;
         left: 8px;
         z-index: 999;
     }
 
     .form-visible{
-        top: 130px;
+        top: 180px;
         visibility: visible;
         transition: 1s;
         opacity: 5;
