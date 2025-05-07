@@ -351,7 +351,7 @@ footer{
 }
 
 /* MEDIA QUERIES FOR HEROE AND FEATURE SECTION */
-@media (min-width: 375px){
+@media (min-width: 200px){
     html{
         font-size: 55%;
     }
@@ -362,8 +362,8 @@ footer{
 
     .heroe-section{
         text-align: center;
-        padding: 45rem 5rem;
-        padding-top: 20rem;
+        padding: 30rem 5rem;
+        padding-top: 10rem;
         background-image: url("images/bk1.png");
         background-repeat: no-repeat;
         background-size: cover;
