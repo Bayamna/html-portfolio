@@ -25,14 +25,14 @@ html{
 
 body{
     font-family: "Poppins", sans-serif;
-    /* font-weight: 400; */
+
     font-size: 1.5rem;
     background-color: var(--tertiary-color);
     color: var(--tertiary-color);
 }
 
 .container{
-    width: 93%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -105,6 +105,14 @@ a{
     color: var(--tertiary-color);
 }
 
+.active{
+    filter: blur(50px);
+    pointer-events: none;
+    user-select: none;
+    transition: .05s;
+    overflow: hidden;
+}
+
 /* BUTTOM-NAVIGATION-BAR */
 .bottom-navigation-bar{
     display: none;
@@ -124,18 +132,11 @@ a{
 .btn{
     padding: 1rem 2rem;
     color: var(--tertiary-color);
+    margin-top: 1rem;
 }
 
 .btn-register:link, .btn-register:visited{
     background-color: var(--secondary-color);
-}
-
-.active{
-    filter: blur(50px);
-    pointer-events: none;
-    user-select: none;
-    transition: .05s;
-    overflow: hidden;
 }
 
 /* HEROE SECTION */
@@ -153,32 +154,24 @@ a{
 /* FEATURES SECTION */
 .features-section{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     margin-bottom: 15rem;
     gap: 5rem;
+    box-shadow: 0px 5px 5px lightgray;
+    padding: 10rem;
 }
 
-.feature-section-card{
-    background-size: cover;
-    background-position: right;
-    padding: 5rem;
-    border-radius: 2rem;
-    color: var(--tertiary-color);
-    background-repeat: no-repeat;
-    box-shadow: 0px 1px 10px lightgray;
-    background-color: var(--tertiary-color);
+
+.features-section-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.lose-weight{
-    background-image: url("images/shade-the-weight1.png");
-}
-
-.glow{
-    background-image: url("images/glow1.png");
-}
-
-.skin-tags{
-    background-image: url("images/glow1.png");
+.feature-section-img{
+    width: 230px;
 }
 
 .feature-card-heading{
@@ -186,13 +179,14 @@ a{
     font-weight: 700;
     font-size: 2.5rem;
     line-height: 3.2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 }
 
 .feature-card-paragraph{
     color: var(--secondary-color);
     font-weight: 400;
     font-size: 1.5rem;
+    margin-bottom: 0rem;
 }
 
 .icons{
@@ -227,8 +221,8 @@ a{
     border-radius: 2rem;
     background-color: var(--tertiary-color);
     position: fixed;
-    top: 200px;
-    left: 400px;
+    top: 50%;
+    left: 30%;
     visibility: hidden;
     opacity: 0;
   
@@ -239,6 +233,8 @@ a{
     visibility: visible;
     transition: .5s;
     opacity: 5;
+    position: fixed;
+    
 }
 
 
@@ -351,9 +347,17 @@ footer{
 }
 
 /* MEDIA QUERIES FOR HEROE AND FEATURE SECTION */
-@media (min-width: 200px){
+@media (max-width: 899px){
     html{
-        font-size: 55%;
+        font-size: 50%;
+    }
+
+    .container{
+        width: 70%;
+    }
+
+    h1{
+        font-size: 6rem;
     }
 
     .paragraph{
@@ -362,8 +366,8 @@ footer{
 
     .heroe-section{
         text-align: center;
-        padding: 30rem 5rem;
-        padding-top: 10rem;
+        padding: 35rem 5rem;
+        padding-top: 15rem;
         background-image: url("images/bk1.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -374,12 +378,6 @@ footer{
         /* height: 90vh; */
     }
 
-    .phone-feature-section{
-        background-image: none;
-        background-color: var(--tertiary-color);
-        border-radius: 5px;
-        text-align: center;
-    }
     .features-section-two{
         grid-template-columns: 1fr;
         padding: 2rem;
@@ -388,6 +386,15 @@ footer{
 
     .navigation-links{
         display: none
+    }
+
+    .features-section{
+        grid-template-columns: 1fr;
+        padding: 5rem;
+    }
+
+    .feature-section-img{
+        width: 150px;
     }
 
     .feature-card-paragraph{
@@ -421,9 +428,9 @@ footer{
         width: 400px;
         padding: 2rem 2rem;
         border: .5rem solid var(--primary-color);
-        top: 400px;
-        left: 8px;
-        z-index: 999;
+        top: 50%;
+        left: 50%;
+        margin: 0px auto;
     }
 
     .form-visible{
@@ -431,6 +438,11 @@ footer{
         visibility: visible;
         transition: .5s;
         opacity: 5;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: calc(-40px + 100vw);
     }
 
 }
@@ -441,13 +453,14 @@ footer{
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 397px){
     h1{
-        font-size: 9rem;
+        font-size: 7rem;
+        line-height: 7rem;
     }
 
     .paragraph{
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 }
 
