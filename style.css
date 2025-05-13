@@ -143,7 +143,7 @@ a{
     top: 20px;
     right: 5px;
     min-width: 60%;
-    height: 50vh;
+    height: auto;
     border-radius: 1.5rem;
     display: none;
     border: .3rem solid var(--primary-color);
@@ -158,7 +158,7 @@ a{
 }
 
 .toggled-navigation-items{
-    border-bottom: 2px solid var(--secondary-tint);
+    border-bottom: 2px solid var(--primary-color);
     padding-bottom: 1rem;
 }
 
@@ -184,7 +184,7 @@ a{
         display: flex;
         margin-top: 3rem;
         border-bottom: 2px solid var(--primary-color);
-        padding-bottom: 1rem;
+        padding-bottom: 1.5rem;
     }
 
     .toggled-nav-items{
