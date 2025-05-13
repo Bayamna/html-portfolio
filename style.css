@@ -142,8 +142,8 @@ a{
     position: fixed;
     top: 20px;
     right: 5px;
-    min-width: 50%;
-    height: 80vh;
+    min-width: 60%;
+    height: 50vh;
     border-radius: 1.5rem;
     display: none;
     border: .3rem solid var(--primary-color);
