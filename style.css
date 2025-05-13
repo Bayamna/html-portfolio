@@ -157,6 +157,11 @@ a{
     gap: 2.5rem;
 }
 
+.toggled-navigation-items{
+    border-bottom: 2px solid var(--secondary-tint);
+    padding-bottom: 1rem;
+}
+
 /* MEDIA QUERIES */
 @media(max-width: 850px){
     .top-navigation-links{
@@ -178,6 +183,8 @@ a{
     .toggled-social-media{
         display: flex;
         margin-top: 3rem;
+        border-bottom: 2px solid var(--primary-color);
+        padding-bottom: 1rem;
     }
 
     .toggled-nav-items{
