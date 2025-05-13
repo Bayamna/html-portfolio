@@ -1,10 +1,13 @@
-document.querySelector(".menu-icon").addEventListener("click", function(){
-    document.querySelector(".toggled-navigation-bar").classList.toggle("visible");
+$(".menu-icon").click(function(){
+    $(".toggled-navigation-bar").slideDown();
+    $(".toggled-navigation-bar").addClass("visible");
 })
 
+
+
+var menu_modal = document.querySelector(".toggled-navigation-bar");
 document.addEventListener("click", function(event){
-    var navigation = document.querySelector(".toggled-navigation-bar");
-    if(event.target == navigation){
-        document.querySelector(".toggled-navigation-bar").classList.toggle("visible");
+    if(event.target == menu_modal){
+        menu_modal.style.display = "none";
     }
 })
