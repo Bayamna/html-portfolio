@@ -138,7 +138,7 @@ a{
 /* TOGGLED-NAVIGATION-BAR */
 .toggled-navigation-bar{
     background-color: var(--secondary-color);
-    padding: 30px 50px;
+    padding: 50px 50px;
     position: fixed;
     top: 20px;
     right: 5px;
@@ -177,7 +177,7 @@ a{
 
     .toggled-social-media{
         display: flex;
-        margin-bottom: 2rem;
+        margin-top: 3rem;
     }
 
     .toggled-nav-items{
