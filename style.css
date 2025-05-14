@@ -157,11 +157,6 @@ a{
     gap: 2.5rem;
 }
 
-.toggled-navigation-items{
-    border-bottom: 2px solid var(--primary-color);
-    padding-bottom: 1rem;
-}
-
 /* MEDIA QUERIES */
 @media(max-width: 850px){
     .top-navigation-links{
