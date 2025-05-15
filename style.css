@@ -163,20 +163,27 @@ a{
     height: auto;
     border-radius: .8rem;
     box-shadow: 0.2rem 0.2rem 1rem var(--secondary-color);
+    display: none;
     
+}
+
+.visible{
+    display: block;
 }
 
 .booking-heading{
     margin-bottom: 1rem;
+    color: var(--primary-color);
+    font-weight: 700;
 }
 
 .form-input{
     width: 100%;
     padding: 1.2rem;
-    border: .2rem solid var(--primary-color);
+    border: .2rem solid var(--tertiary-color);
     outline: none;
     margin-bottom: .5rem;
-    background-color: var(--primary-color);
+    background-color: var(--tertiary-color);
     border-radius: .2rem;
     color: var(--secondary-color);
 }
@@ -186,7 +193,7 @@ input::placeholder{
 }
 
 .form-btn{
-    background-color: var(--tertiary-color);
+    background-color: var(--primary-color);
     padding: 1.5rem 3rem;
     border: none;
     border-radius: .5rem;
@@ -266,7 +273,7 @@ input::placeholder{
     }
 
     .booking-form-container{
-        width: calc(-50px + 100vw);
+        width: calc(-30px + 100vw);
         padding: 4rem 3rem;
     }
 

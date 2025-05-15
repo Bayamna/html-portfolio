@@ -9,3 +9,8 @@ document.addEventListener("click", function(event){
         menu_modal.style.display = "none";
     }
 })
+
+document.querySelector(".booking-btn").addEventListener("click", function(){
+    $(".booking-form-container").slideDown("slow");
+    document.querySelector(".booking-form-container").classList.add("visible")
+})
