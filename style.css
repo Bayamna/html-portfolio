@@ -4,7 +4,7 @@
     --primary-tint: #ffde00;
     --primary-tint-2: #fcf9f0;
     --secondary-color: #800000;
-    --secondary-tint: #851c1c;
+    --secondary-tint: #d11c1c;
     --tertiary-color: #ffffff;
 
     /* FONTS */
@@ -54,7 +54,7 @@ h1{
 }
 
 h2{
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 500;
 }
 
@@ -151,6 +151,49 @@ a{
     gap: 2.5rem;
 }
 
+/* BOOKING FORM */
+.booking-form-container{
+    background-color: var(--secondary-color);
+    padding: 4rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    border-radius: .8rem;
+    box-shadow: 0.2rem 0.2rem 1rem var(--secondary-color);
+    
+}
+
+.booking-heading{
+    margin-bottom: 1rem;
+}
+
+.form-input{
+    width: 100%;
+    padding: 1.2rem;
+    border: .2rem solid var(--primary-color);
+    outline: none;
+    margin-bottom: .5rem;
+    background-color: var(--primary-color);
+    border-radius: .2rem;
+    color: var(--secondary-color);
+}
+
+input::placeholder{
+    color: var(--secondary-color);
+}
+
+.form-btn{
+    background-color: var(--tertiary-color);
+    padding: 1.5rem 3rem;
+    border: none;
+    border-radius: .5rem;
+    outline: none;
+    margin-top: 1rem;
+    color: var(--secondary-color);
+}
+
 /* HEROE SECTION */
 
 .heroe-section{
@@ -171,7 +214,7 @@ a{
     align-items: center;
 }
 
-.btn{
+.booking-btn{
     background-color: var(--secondary-color);
     padding: 1.5rem 3rem;
 }
@@ -218,6 +261,10 @@ a{
     .heroe-section{
         padding: 2.5rem 2.5rem;
         height: 80vh;
+    }
+
+    .booking-form-container{
+        width: calc(-50px + 100vw);
     }
 
 }
