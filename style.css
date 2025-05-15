@@ -141,6 +141,7 @@ a{
     border-radius: 1.5rem;
     display: none;
     border: .3rem solid var(--primary-color);
+    z-index: 999;
 }
 
 .toggled-navigation-links{
@@ -162,6 +163,7 @@ a{
     height: auto;
     border-radius: .8rem;
     box-shadow: 0.2rem 0.2rem 1rem var(--secondary-color);
+    /* width: calc(-50px + 100vw); */
     
 }
 
@@ -192,6 +194,7 @@ input::placeholder{
     outline: none;
     margin-top: 1rem;
     color: var(--secondary-color);
+    cursor: pointer;
 }
 
 /* HEROE SECTION */
