@@ -1,10 +1,10 @@
 :root{
     /* COLORS */
     --primary-color: #e3ab00;
-    --primary-tint: #ffde00;
+    --primary-tint: #ffd000;
     --primary-tint-2: #fcf9f0;
     --secondary-color: #800000;
-    --secondary-tint: #d11c1c;
+    --secondary-tint: #af0000;
     --tertiary-color: #ffffff;
 
     /* FONTS */
@@ -33,10 +33,6 @@ body{
 .container{
     width: 90%;
     margin: 0 auto;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
 }
 
 h1{
@@ -78,6 +74,10 @@ ul{
 a{
     text-decoration: none;
     color: var(--tertiary-color);
+}
+
+.active-overflow{
+   overflow: hidden;
 }
 
 /* TOP-NAVIGATION-BAR */
@@ -141,7 +141,7 @@ a{
     border-radius: 1rem;
     display: none;
     border: .3rem solid var(--primary-color);
-    z-index: 999;
+    z-index: 1;
 }
 
 .toggled-navigation-links{
@@ -200,14 +200,19 @@ input::placeholder{
     outline: none;
     margin-top: 1rem;
     color: var(--secondary-color);
+    transition: background-color 1s;
     cursor: pointer;
+}
+
+.form-btn:hover{
+    background-color: var(--primary-tint);
 }
 
 /* HEROE SECTION */
 
 .heroe-section{
     background-color: var(--primary-color);
-    margin-top: 6rem;
+    margin-top: 4rem;
     padding: 15rem 5rem;
     height: auto;
     width: 100%;
@@ -226,6 +231,12 @@ input::placeholder{
 .booking-btn{
     background-color: var(--secondary-color);
     padding: 1.5rem 3rem;
+    transition: background-color 1s;
+    border-radius: .5rem;
+}
+
+.booking-btn:hover{
+    background-color: var(--secondary-tint);
 }
 
 .heroe-section-text{
