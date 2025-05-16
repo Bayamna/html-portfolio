@@ -17,7 +17,7 @@ $(document).ready(function(){
     
     // OPEN BOOKING-FORM
     document.querySelector(".booking-btn").addEventListener("click", function(){
-        $(".booking-form-container").slideDown("slow");
+        $(".booking-form-container").fadeIn("slow");
         document.querySelector(".booking-form-container").classList.add("visible");
         document.querySelector("body").classList.add("active-overflow");
     })

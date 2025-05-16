@@ -159,7 +159,7 @@ a{
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -45%);
     height: auto;
     border-radius: .8rem;
     box-shadow: 0.2rem 0.2rem 1rem var(--secondary-color);
@@ -284,6 +284,7 @@ input::placeholder{
     }
 
     .booking-form-container{
+        transform: translate(-50%, -50%);
         width: calc(-30px + 100vw);
         padding: 4rem 3rem;
     }
