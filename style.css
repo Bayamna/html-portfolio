@@ -53,7 +53,8 @@ h1{
 
 h2{
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 700;
+    color: var(--secondary-color);
 }
 
 h3{
@@ -65,7 +66,7 @@ p{
     font-size: 1.5rem;
     margin-bottom: 4rem;
     color: var(--secondary-color);
-    font-weight: 700;
+    font-weight: 400;
     
 }
 
@@ -82,15 +83,44 @@ a{
    overflow: hidden;
 }
 
-/* LEARN BUTTON */
+
+
+
+
+
+/* BUTTONS */
+/* LEARN MORE BTN */
 .learn-more-btn{
     background-color: var(--secondary-color);
-    padding: .5rem 1rem;
-    border: 2px solid var(--secondary-color);
+    padding: 1rem 2rem;
     border-radius: .5rem;
     margin-top: 1.5rem;
     color: var(--tertiary-color);
+    transition: background-color 1s;
 }
+
+.learn-more-btn:hover{
+    background-color: var(--secondary-tint);
+}
+
+
+/* BOOKING BTN */
+.booking-btn{
+    background-color: var(--secondary-color);
+    padding: 1.5rem 3rem;
+    transition: background-color 1s;
+    border-radius: .5rem;
+    border: .3rem solid var(--primary-tint);
+}
+
+.booking-btn:hover{
+    background-color: var(--secondary-tint);
+}
+
+
+
+
+
 
 /* TOP-NAVIGATION-BAR */
 .top-navigation-bar{
@@ -141,6 +171,11 @@ a{
     color: var(--primary-color);
 }
 
+
+
+
+
+
 /* TOGGLED-NAVIGATION-BAR */
 .toggled-navigation-bar{
     background-color: var(--secondary-color);
@@ -163,6 +198,11 @@ a{
     justify-content:flex-start;
     gap: 2.5rem;
 }
+
+
+
+
+
 
 /* BOOKING FORM */
 .booking-form-container{
@@ -220,11 +260,14 @@ input::placeholder{
     background-color: var(--primary-tint);
 }
 
-/* HEROE SECTION */
 
+
+
+
+/* HEROE SECTION */
 .heroe-section{
     background-color: var(--primary-color);
-    margin-top: 4rem;
+    margin-top: 8rem;
     padding: 15rem 5rem;
     height: auto;
     width: 100%;
@@ -240,30 +283,37 @@ input::placeholder{
     align-items: center;
 }
 
-.booking-btn{
-    background-color: var(--secondary-color);
-    padding: 1.5rem 3rem;
-    transition: background-color 1s;
-    border-radius: .5rem;
-}
-
-.booking-btn:hover{
-    background-color: var(--secondary-tint);
-}
-
 .heroe-section-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
+
+
+
+
+
 
 /* FEATURES SECTION */
 .features-wrapper{
     width: 85%;
     margin: 10rem auto;
 }
+
+.features-heading{
+    font-size: 2.8rem;
+    font-family: var(--font-family-two);
+    margin-bottom: 5rem;
+    font-weight: 500;
+    border-bottom: 1px solid var(--secondary-color);
+    padding-bottom: 2rem;
+}
+
 .feature-item-image{
     width: 100%;
     border-radius: .7rem;
-    /* margin-top: 4rem; */
 }
 
 .feature-item{
@@ -291,6 +341,73 @@ input::placeholder{
     font-weight: 700;
     margin-top: 1rem;
 }
+
+
+
+
+/* VALUES SECTION */
+.values-wrapper{
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: auto;
+}
+
+.values-heading{
+    font-size: 2.8rem;
+    font-family: var(--font-family-two);
+    margin-bottom: 3rem;
+    font-weight: 500;
+    border-bottom: 1px solid var(--tertiary-color);
+    padding-bottom: 2rem;
+    color: var(--tertiary-color)
+}
+
+.values-items{
+    width: 85%;
+    height: auto;
+    margin: 0px auto;
+    padding: 7rem 3rem;
+}
+
+.value-paragraph{
+    color: var(--tertiary-color);
+    margin-bottom: 0px;
+}
+
+.value-heading{
+    font-family: var(--font-family-two);
+    font-weight: 500;
+}
+
+.value-image-background{
+    background-color: var(--tertiary-color);
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.value-image{
+    width: 5.2rem;
+    padding: .5rem;
+}
+
+.value-item{
+    margin-top: 3rem;
+    /* width: 100%; */
+}
+
+.value-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+
+
+
 
 /* MEDIA QUERIES */
 @media(max-width: 850px){
@@ -325,7 +442,7 @@ input::placeholder{
     }
 
     .heroe-section{
-        padding: 2.5rem 2.5rem;
+        padding: 7rem 2.5rem;
         height: 80vh;
     }
 
@@ -351,5 +468,11 @@ input::placeholder{
         font-size: 2rem;
     }
 
+    .value-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
 }
 
