@@ -400,7 +400,6 @@ input::placeholder{
 
 .value-item{
     margin-top: 3rem;
-    /* width: 100%; */
 }
 
 .value-content{
@@ -476,6 +475,16 @@ input::placeholder{
         display: grid;
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+
+    .value-image-background{
+        width: 5.7rem;
+        height: 5.7rem;
+    }
+
+    .value-image{
+        width: 4.5rem;
+        padding: .5rem;
     }
     
 }
