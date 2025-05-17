@@ -413,6 +413,16 @@ input::placeholder{
 
 
 /* MEDIA QUERIES */
+@media(max-width: 1250px){
+    .features{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: start;
+        gap: 5rem;
+    }
+    
+}
+
 @media(max-width: 850px){
     .top-navigation-links{
         display: none;
@@ -468,7 +478,7 @@ input::placeholder{
     }
 
     .item-paragraph{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .value-content{
@@ -488,4 +498,5 @@ input::placeholder{
     }
     
 }
+
 
