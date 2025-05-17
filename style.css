@@ -29,7 +29,7 @@ body{
     font-size: 1.5rem;
     background-color: var(--tertiary-color);
     color: var(--tertiary-color);
-    letter-spacing: 1px;
+    letter-spacing: .5px;
 }
 
 .container{
@@ -263,7 +263,7 @@ input::placeholder{
 .feature-item-image{
     width: 100%;
     border-radius: .7rem;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
 }
 
 .feature-item{
@@ -271,6 +271,11 @@ input::placeholder{
     flex-direction: column;
     justify-content: flex-start;
     align-items: start;
+    box-shadow: .5px .5px 15px lightgrey;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 5px;
+    width: 100%;
 }
 
 .features{
