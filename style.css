@@ -405,7 +405,8 @@ input::placeholder{
 .value-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    column-gap: 5rem;
+    row-gap: 2rem;
 }
 
 
@@ -448,7 +449,7 @@ input::placeholder{
 }
 
 .copyright-text{
-    color: var(--tertiary-color);
+    color: var(--primary-color);
     margin-bottom: 0px;
 }
 
