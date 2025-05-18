@@ -482,6 +482,7 @@ input::placeholder{
 }
 
 @media(max-width: 850px){
+    /* NAVIGATION BAR */
     .top-navigation-links{
         display: none;
     }
@@ -512,6 +513,7 @@ input::placeholder{
         justify-content: center;
     }
 
+    /* MAIN SECTION */
     .heroe-section{
         padding: 7rem 2.5rem;
         height: 80vh;
@@ -543,6 +545,10 @@ input::placeholder{
         font-size: 1.8rem;
     }
 
+    .values-items{
+        width: 90%;
+    }
+
     .value-content{
         display: grid;
         grid-template-columns: 1fr;
@@ -558,6 +564,8 @@ input::placeholder{
         width: 4.5rem;
         padding: .5rem;
     }
+
+    /* FOOTER SECTION */
 
     .footer-items{
         display: flex;

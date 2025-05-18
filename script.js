@@ -1,5 +1,4 @@
 
-
 $(document).ready(function(){
     // OPEN DROP-DOWN MENU
     $(".menu-icon").click(function(){
