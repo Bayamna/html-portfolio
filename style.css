@@ -6,6 +6,7 @@
     --secondary-color: #800000;
     --secondary-tint: #af0000;
     --tertiary-color: #ffffff;
+    --footer-background-color: #610000;
 
     /* FONTS */
     --font-family-one: "Special Gothic", sans-serif;
@@ -381,6 +382,7 @@ input::placeholder{
 .value-heading{
     font-family: var(--font-family-two);
     font-weight: 500;
+    margin-top: .7rem;
 }
 
 .value-image-background{
@@ -415,7 +417,7 @@ input::placeholder{
 
 /* FOOTER SECTION */
 .footer-wrapper{
-    background-color: var(--secondary-color);
+    background-color: var(--footer-background-color);
     height: auto;
     width: 100%;
     border-top: 2px solid var(--secondary-tint);
@@ -433,8 +435,8 @@ input::placeholder{
 
 .contact-icon-background{
     background-color: var(--tertiary-color);
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -451,10 +453,13 @@ input::placeholder{
 .copyright-text{
     color: var(--primary-color);
     margin-bottom: 0px;
+    border: 1px solid var(--secondary-tint);
+    padding: 1.5rem 3rem;
+    border-radius: 4rem;
 }
 
 .contact-icons{
-    width: 2rem;
+    width: 1.5rem;
 }
 
 .contact-numbers{
@@ -527,6 +532,11 @@ input::placeholder{
 
     .feature-item-image{
         width: 100%;
+    }
+
+    .value-heading{
+        font-size: 2rem;
+
     }
 
     .item-paragraph{
