@@ -6,6 +6,7 @@ class MyHeader extends HTMLElement{
             <nav class="top-navigation-bar">
                 <a href="index.html"> <img src="images/logo.png" alt="company-logo" class="logo" /></a>
                 <ul class="top-navigation-links">
+                    <li><a href="index.html" class="top-navigation-link">Home</a></li>
                     <li><a href="about.html" class="top-navigation-link">About</a></li>
                     <li><a href="services.html" class="top-navigation-link">Services</a></li>
                     <li><a href="#" class="top-navigation-link">Products</a></li>
@@ -27,12 +28,13 @@ class MyHeader extends HTMLElement{
                  <div class="toggled-navigation-bar">
                     <div class="toggled-nav-items">
                         <ul class="toggled-navigation-links">
+                            <li><a href="index.html" class="toggled-navigation-link">Home</a></li>
                             <li><a href="about.html" class="toggled-navigation-link">About</a></li>
                             <li><a href="#" class="toggled-navigation-link">Services</a></li>
                             <li><a href="#" class="toggled-navigation-link">Products</a></li>
                             <li><a href="#" class="toggled-navigation-link">Reviews</a></li>
                             <li><a href="#" class="toggled-navigation-link">Blog</a></li>
-                            <li><a href="#" class="toggled-navigation-link">FAQ</a></li>
+                            <li><a href="#" class="toggled-navigation-link">FAQ's</a></li>
                             <li><a href="#" class="toggled-navigation-link">Booking</a></li>
                         </ul>
 
