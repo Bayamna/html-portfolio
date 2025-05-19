@@ -15,13 +15,14 @@ $(document).ready(function(){
     
     // OPEN BOOKING-FORM
     document.querySelector(".booking-btn").addEventListener("click", function(){
-        $(".booking-form-container").slideDown("slow");
+        $(".booking-form-wrapper").slideDown("slow");
         document.querySelector("body").classList.add("active-overflow");
     })
     
     // CLOSE BOOKING-FORM
-    document.querySelector("").addEventListener("click", function(){
-        $(".booking-form-container").fadeOut("slow");
+    document.querySelector(".form-closing-icon").addEventListener("click", function(){
+        $(".booking-form-wrapper").fadeOut("slow");
+        document.querySelector("body").classList.remove("active-overflow");
     })    
 })
 
