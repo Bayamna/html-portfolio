@@ -3,7 +3,6 @@ $(document).ready(function(){
     // OPEN DROP-DOWN MENU
     $(".menu-icon").click(function(){
         $(".toggled-navigation-bar").slideDown();
-        $(".toggled-navigation-bar").addClass("visible");
     })
     
     // CLOSE DROP-DOWN MENU
@@ -17,14 +16,12 @@ $(document).ready(function(){
     // OPEN BOOKING-FORM
     document.querySelector(".booking-btn").addEventListener("click", function(){
         $(".booking-form-container").slideDown("slow");
-        document.querySelector(".booking-form-container").classList.add("visible");
         document.querySelector("body").classList.add("active-overflow");
     })
     
     // CLOSE BOOKING-FORM
-    document.querySelector(".form-btn").addEventListener("click", function(){
+    document.querySelector("").addEventListener("click", function(){
         $(".booking-form-container").fadeOut("slow");
-        document.querySelector(".booking-form-container").classList.remove("visible")
     })    
 })
 

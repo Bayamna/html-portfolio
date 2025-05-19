@@ -156,7 +156,8 @@ a{
 
 .toggled-navigation-link{
     color: var(--secondary-color);
-
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .toggled-navigation-links{
@@ -280,10 +281,6 @@ a{
     }
 
     .menu-icon{
-        display: flex;
-    }
-
-    .visible{
         display: flex;
     }
 
