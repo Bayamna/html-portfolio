@@ -135,6 +135,10 @@ a{
     width: 100%;
 }
 
+.top-navigation-link{
+    color: var(--tertiary-color)
+}
+
 .logo{
     width: 20.5rem;
 }
@@ -177,19 +181,24 @@ a{
 
 
 
+
 /* TOGGLED-NAVIGATION-BAR */
 .toggled-navigation-bar{
-    background-color: var(--secondary-color);
+    background-color: var(--tertiary-color);
     padding: 50px 50px;
     position: fixed;
-    top: 20px;
-    right: 5px;
-    min-width: 60%;
-    height: auto;
-    border-radius: 1rem;
+    top: 0%;
+    right: 0%;
+    max-width: 100%;
+    width: 70%;
+    height: 100vh;
     display: none;
-    border: .3rem solid var(--primary-color);
+    box-shadow: 10px 10px 50px rgb(54, 54, 54);
     z-index: 1;
+}
+
+.toggled-navigation-link{
+    color: var(--secondary-color);
 }
 
 .toggled-navigation-links{
@@ -199,6 +208,21 @@ a{
     justify-content:flex-start;
     gap: 2.5rem;
 }
+
+.toggled-social-media{
+    display: flex;
+    margin-top: 3rem;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 1.5rem;
+}
+
+.toggled-nav-items{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
 
 
 
@@ -499,19 +523,9 @@ input::placeholder{
         display: none;
     }
 
-    .toggled-social-media{
-        display: flex;
-        margin-top: 3rem;
-        border-bottom: 2px solid var(--primary-color);
-        padding-bottom: 1.5rem;
-    }
+   
 
-    .toggled-nav-items{
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        justify-content: center;
-    }
+
 
     /* MAIN SECTION */
     .heroe-section{
