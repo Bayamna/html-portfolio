@@ -27,7 +27,7 @@ class MyHeader extends HTMLElement{
                  <div class="toggled-navigation-bar">
                     <div class="toggled-nav-items">
                         <ul class="toggled-navigation-links">
-                            <li><a href="#" class="toggled-navigation-link">About</a></li>
+                            <li><a href="about.html" class="toggled-navigation-link">About</a></li>
                             <li><a href="#" class="toggled-navigation-link">Services</a></li>
                             <li><a href="#" class="toggled-navigation-link">Products</a></li>
                             <li><a href="#" class="toggled-navigation-link">Reviews</a></li>

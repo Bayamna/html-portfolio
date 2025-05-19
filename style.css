@@ -199,6 +199,8 @@ a{
 
 .toggled-navigation-link{
     color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .toggled-navigation-links{
