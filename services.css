@@ -253,7 +253,7 @@ a{
     padding: 1rem;
     width: 45%;
     border-radius: 15rem;
-    box-shadow: 2px 2px 7px lightgray;
+    box-shadow: 0px 0px 7px lightgray;
 
 }
 
@@ -265,7 +265,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 2px 2px 7px lightgray;
+    box-shadow: 0px 0px 7px lightgray;
 
 }
 
