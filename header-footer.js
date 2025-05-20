@@ -30,7 +30,7 @@ class MyHeader extends HTMLElement{
                         <ul class="toggled-navigation-links">
                             <li><a href="index.html" class="toggled-navigation-link">Home</a></li>
                             <li><a href="about.html" class="toggled-navigation-link">About</a></li>
-                            <li><a href="#" class="toggled-navigation-link">Services</a></li>
+                            <li><a href="services.html" class="toggled-navigation-link">Services</a></li>
                             <li><a href="#" class="toggled-navigation-link">Products</a></li>
                             <li><a href="#" class="toggled-navigation-link">Reviews</a></li>
                             <li><a href="#" class="toggled-navigation-link">Blog</a></li>

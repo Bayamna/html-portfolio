@@ -91,6 +91,7 @@ a{
     position: fixed;
     top: 0px;
     width: 100%;
+    opacity: 20px;
 }
 
 
@@ -156,8 +157,8 @@ a{
 
 .toggled-navigation-link{
     color: var(--secondary-color);
-    font-size: 2.3rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 500;
 }
 
 .toggled-navigation-links{
@@ -189,7 +190,7 @@ a{
 
 /* ABOUT US SECTION */
 .about-us-wrapper{
-    margin: 10rem auto;
+    margin: 10rem 0px;
     width: 100%;
     height: auto;
 }
@@ -210,7 +211,12 @@ a{
     margin-bottom: 2rem;
     font-weight: 500;
     border-bottom: 1px solid var(--secondary-color);
-    /* padding-bottom: .5rem; */
+}
+
+.about-sub-heading{
+    border-bottom: 1px solid var(--secondary-color);
+    padding-bottom: 2rem;
+    
 }
 
 

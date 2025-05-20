@@ -195,8 +195,8 @@ a{
 
 .toggled-navigation-link{
     color: var(--secondary-color);
-    font-size: 2.3rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 500;
 }
 
 .toggled-navigation-links{
@@ -263,7 +263,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1.8rem;
 }
 
 .form-input{
@@ -339,7 +339,7 @@ input::placeholder{
 
 /* FEATURES SECTION */
 .features-wrapper{
-    width: 85%;
+    width: 90%;
     margin: 10rem auto;
 }
 
@@ -404,7 +404,7 @@ input::placeholder{
 }
 
 .values-items{
-    width: 85%;
+    width: 90%;
     height: auto;
     margin: 0px auto;
     padding: 7rem 3rem;
@@ -504,6 +504,9 @@ input::placeholder{
 }
 
 
+   
+
+
 
 
 /* MEDIA QUERIES */
@@ -517,8 +520,10 @@ input::placeholder{
     
 }
 
+
+
 @media(max-width: 850px){
-    /* NAVIGATION BAR */
+    /* MEDIA QUERY NAVIGATION BAR */
     .top-navigation-links{
         display: none;
     }
@@ -531,11 +536,8 @@ input::placeholder{
         display: none;
     }
 
-   
-
-
-
-    /* MAIN SECTION */
+    
+    /* MEDIA QUERY MAIN SECTION */
     .heroe-section{
         padding: 7rem 2.5rem;
         height: 80vh;
@@ -587,8 +589,8 @@ input::placeholder{
         padding: .5rem;
     }
 
-    /* FOOTER SECTION */
 
+    /* MEDIA QUERY FOOTER SECTION */
     .footer-items{
         display: flex;
         flex-direction: column;
