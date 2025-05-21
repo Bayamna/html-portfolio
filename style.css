@@ -107,7 +107,6 @@ a{
     padding: 1.5rem 3rem;
     transition: background-color 1s;
     border-radius: .5rem;
-    border: .3rem solid var(--primary-tint);
 }
 
 .booking-btn:hover{
@@ -330,6 +329,10 @@ input::placeholder{
 
 .heroe-paragraph{
     font-weight: 700;
+}
+
+.best{
+    color: var(--tertiary-color);
 }
 
 

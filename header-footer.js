@@ -58,7 +58,7 @@ class MyFooter extends HTMLElement{
         
         `<footer class="footer-wrapper">
             <div class="footer-items">
-                <p class="copyright-text">Curves Republic Ltd. © 2025</p>
+                <p class="copyright-text">Curves Republic Ltd. © 2025.</p>
                 <div class="contacts">
                     <div class="contact-icon-background">
                         <img src="images/call.png" alt="call-icon" class="contact-icons">
