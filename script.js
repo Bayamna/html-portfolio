@@ -3,14 +3,15 @@ $(document).ready(function(){
     // OPEN DROP-DOWN MENU
     $(".menu-icon").click(function(){
         $(".toggled-navigation-bar").slideDown();
+        document.querySelector(".overlay").style.display = "block";
     })
     
     // CLOSE DROP-DOWN MENU
-    var menu_modal = document.querySelector(".toggled-navigation-bar");
-    document.addEventListener("click", function(event){
-        if(event.target == menu_modal){
-            menu_modal.style.display = "none";
-        }
+    var overlay = document.querySelector(".overlay");
+    overlay.addEventListener("click", function(){
+        $(".toggled-navigation-bar").fadeOut("fast");
+        overlay.style.display = "none";
+        document.querySelector("body").classList.remove("active-overflow");
     })
     
     // OPEN BOOKING-FORM

@@ -12,7 +12,7 @@ class MyHeader extends HTMLElement{
                     <li><a href="#" class="top-navigation-link">Products</a></li>
                     <li><a href="#" class="top-navigation-link">Reviews</a></li>
                     <li><a href="#" class="top-navigation-link">Blog</a></li>
-                    <li><a href="#" class="top-navigation-link">FAQ</a></li>
+                    <li><a href="#" class="top-navigation-link">FAQ's</a></li>
                 </ul>
                 <img src="images/menu-icon.png" alt="menu-icon" class="menu-icon" />
 
@@ -34,7 +34,6 @@ class MyHeader extends HTMLElement{
                             <li><a href="#" class="toggled-navigation-link">Reviews</a></li>
                             <li><a href="#" class="toggled-navigation-link">Blog</a></li>
                             <li><a href="#" class="toggled-navigation-link">FAQ's</a></li>
-                            <li><a href="#" class="toggled-navigation-link">Booking</a></li>
                         </ul>
 
                         <ul class="toggled-social-media">
