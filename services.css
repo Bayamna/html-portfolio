@@ -296,8 +296,16 @@ a{
 }
 
 .close-icon{
-    width: 2.5rem;
+    width: 3.5rem;
     cursor: pointer;
+    padding: .5rem;
+    border-radius: .5rem;
+    transition: 0.5s;
+    
+}
+
+.close-icon:hover{
+    background-color: var(--secondary-tint);
 }
 
 .share-icons-heading{
@@ -313,7 +321,14 @@ a{
     padding: 3rem;
     border: 1.7px solid var(--secondary-tint);
     border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
     /* width: 100%; */
+}
+
+.share-icons-bg:hover{
+    border: 1.7px solid var(--primary-color);
+
 }
 
 .share-icons{
