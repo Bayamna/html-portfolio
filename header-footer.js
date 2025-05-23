@@ -18,8 +18,8 @@ class MyHeader extends HTMLElement{
 
                 <ul class="social-media">
                     <li><a href="#"><img src="images/facebook.png" alt="facebook-icon" class="social-media-icons" /></a></li>
-                    <li><a href="#"><img src="images/instagram.png" alt="instagram-icon" class="social-media-icons" /></a></li>
-                    <li><a href="#"><img src="images/tiktok.png" alt="tiktok-icon" class="social-media-icons" /></a></li>
+                    <li><a href="https://www.instagram.com/curvesrepublicltd?igsh=MTlvdmhycWpnZW8yZQ=="><img src="images/instagram.png" alt="instagram-icon" class="social-media-icons" /></a></li>
+                    <li><a href="https://www.tiktok.com/@curvesrepublicltd?_t=ZS-8vwd5YviFTW&_r=1"><img src="images/tiktok.png" alt="tiktok-icon" class="social-media-icons" /></a></li>
                     <li><a href="#"><img src="images/youtube.png" alt="youtube-icon" class="social-media-icons" /></a></li>
                 </ul>
             </nav>

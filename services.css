@@ -76,6 +76,10 @@ a{
     color: var(--tertiary-color);
 }
 
+.active-overflow{
+    overflow: hidden;
+ }
+
 .overlay{
     position: fixed;
     display: none;
@@ -213,8 +217,7 @@ a{
     font-size: 2rem;
     font-family: var(--font-family-two);
     font-weight: 400;
-    padding: 1rem;
-    margin-bottom: .5rem;
+    margin-top: .5rem;
     border-radius: 5px
 
 }
@@ -232,7 +235,7 @@ a{
 
 .services-image-video{
     width: 100%;
-    border-radius: 1rem;
+    border-radius: .5rem;
 }
 
 .services-details{
@@ -244,7 +247,7 @@ a{
 
 .services-text{
     margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
+    margin-top: .5rem;
     font-weight: 500;
     
 }

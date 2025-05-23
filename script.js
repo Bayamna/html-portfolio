@@ -1,9 +1,12 @@
 
 $(document).ready(function(){
+    var treatments_list = document.querySelector(".treatments");
+    treatments_list = "hide-first-option";
     // OPEN DROP-DOWN MENU
-    $(".menu-icon").click(function(){
+    document.querySelector(".menu-icon").addEventListener("click",function(){
         $(".toggled-navigation-bar").slideDown();
         document.querySelector(".overlay").style.display = "block";
+        document.querySelector("body").classList.add("active-overflow");
     })
     
     // CLOSE DROP-DOWN MENU
